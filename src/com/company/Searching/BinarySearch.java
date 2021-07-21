@@ -5,8 +5,8 @@ public class BinarySearch {
         System.out.println("Tuhin Subhra Hazra");
         System.out.println("Roll : IT/19/04");
 
-        int []arr = {13,24,36,41,57,66,78,89,92,101};
-         int target = 101;
+        int []arr = {1,2,3,5,6};
+         int target = 2;
 
          int n = binarySearch(arr,target);
         System.out.println("Index found at position :" + n);

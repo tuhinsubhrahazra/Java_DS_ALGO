@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class leetcodeArray1389 {
     public static boolean repeat = false;
@@ -16,14 +17,15 @@ public class leetcodeArray1389 {
     }
 
     private static void createTargetArray(int[] nums, int[] index) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
+//        ArrayList<Integer> arrayList = new ArrayList<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
 
         for (int i=0;i< nums.length;i++){
-            arrayList.add(index[i],nums[i]);
+            linkedList.add(index[i],nums[i]);
         }
 
-        for (int i =0;i< arrayList.size();i++){
-            nums[i] = arrayList.get(i);
+        for (int i =0;i< linkedList.size();i++){
+            nums[i] = linkedList.get(i);
         }
     }
 }

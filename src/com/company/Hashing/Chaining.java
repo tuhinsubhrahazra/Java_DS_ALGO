@@ -19,8 +19,8 @@ public class Chaining {
         System.out.println(Table.size());
 
         insertion(17);
-//        insertion(47);
-//        insertion(75);
+        insertion(47);
+        insertion(75);
         System.out.println(search(17));
         delete(17);
         System.out.println(search(17));

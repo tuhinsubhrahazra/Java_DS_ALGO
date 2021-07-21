@@ -13,6 +13,17 @@ public class leetCodeArray1313 {
         }
     }
 
+//    private static int[] decompressRLElist_optimize(int[] nums) {
+//        ArrayList<Integer> arrayList = new ArrayList<>();
+//        for (int i = 1;i<nums.length;i+=2){
+//            arrayList.add(nums[i]);
+//        }
+//        for (int i =0;)
+//
+//        System.out.println(arrayList);
+//        return new int[0];
+//    }
+
     private static int[] decompressRLElist(int[] nums) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 0;i<nums.length;i+=2){
