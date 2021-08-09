@@ -20,11 +20,11 @@ public class margeSort {
             int mid = (low + high) / 2;
             margeSort2(arr, low, mid);
             margeSort2(arr, mid + 1, high);
-            merge(arr,low,mid,high);
+            margeFunction(arr,low,mid,high);
         }
     }
 
-    public static void merge(int[] a, int l, int m, int h) {
+    public static void margeFunction(int[] a, int l, int m, int h) {
         int n1 = (m - l) + 1;
         int n2 = h - m;
 
@@ -65,7 +65,4 @@ public class margeSort {
             k++;
         }
     }
-
-
-
 }

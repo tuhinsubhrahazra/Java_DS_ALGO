@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.Heap.HeapSort;
+
 public class temp {
     public static void main(String[] args) {
         int a = 1234;
@@ -15,5 +17,8 @@ public class temp {
         int min = (int) arr[0];
 
         System.out.println(maxi + "  " + min);
+
+
     }
+
 }
